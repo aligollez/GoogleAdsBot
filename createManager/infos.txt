@@ -1,0 +1,59 @@
+Create a manager account | Button
+//*[@id="jump-content"]/div[2]/section[1]/div/div/div[2]/div/a
+document.querySelector("#jump-content > div.pinnable-content.main-content-slideover-init > section.gads--section.section1.section--hero.section--split-hero.tools-hero > div > div > div.h-c--text-element.glue-grid__col.glue-grid__col--span-4.glue-grid__col--span-4-sm.glue-grid__col--align-middle.h-c-grid__col-l--align-start > div > a")
+
+Account display name | Input | Name/AnyValue
+//*[@id="dart-1676762768447"]/deferred-component/signup-subapp-root/base-root/div/div[2]/div[1]/view-loader/manager-view/div/material-input/div[1]/div[1]/label/input
+//*[@id="dart-1676852094412"]/deferred-component/signup-subapp-root/base-root/div/div[2]/div[1]/view-loader/manager-view/div/material-input/div[1]/div[1]/label/input
+full XPATH: /html/body/div[2]/root/div/div[1]/div/div/div[3]/div/div/awsm-child-content/div/div/cm-editing-root/deferred-component/signup-subapp-root/base-root/div/div[2]/div[1]/view-loader/manager-view/div/material-input/div[1]/div[1]/label/input
+document.querySelector("#dart-1676762768447 > deferred-component > signup-subapp-root > base-root > div > div.base-root-body._ngcontent-awn-CM_EDITING-1 > div.view-container._ngcontent-awn-CM_EDITING-1 > view-loader > manager-view > div > material-input > div.baseline._ngcontent-awn-CM_EDITING-3 > div.top-section._ngcontent-awn-CM_EDITING-3 > label > input")
+document.querySelector("#dart-1676852094412 > deferred-component > signup-subapp-root > base-root > div > div.base-root-body._ngcontent-awn-CM_EDITING-1 > div.view-container._ngcontent-awn-CM_EDITING-1 > view-loader > manager-view > div > material-input > div.baseline._ngcontent-awn-CM_EDITING-3 > div.top-section._ngcontent-awn-CM_EDITING-3 > label > input")
+
+Submit | Button
+//*[@id="dart-1676762768447"]/deferred-component/signup-subapp-root/base-root/div/div[2]/div[1]/view-loader/manager-view/div/div[6]/material-button
+/html/body/div[2]/root/div/div[1]/div/div/div[3]/div/div/awsm-child-content/div/div/cm-editing-root/deferred-component/signup-subapp-root/base-root/div/div[2]/div[1]/view-loader/manager-view/div/div[6]/material-button
+document.querySelector("#dart-1676762768447 > deferred-component > signup-subapp-root > base-root > div > div.base-root-body._ngcontent-awn-CM_EDITING-1 > div.view-container._ngcontent-awn-CM_EDITING-1 > view-loader > manager-view > div > div.button-container._ngcontent-awn-CM_EDITING-2 > material-button")
+Explore your Account | Button
+//*[@id="dart-1676762768447"]/deferred-component/signup-subapp-root/base-root/div/div[2]/div[1]/view-loader/congrats-view/div/div[1]/div[1]/material-button
+document.querySelector("#dart-1676762768447 > deferred-component > signup-subapp-root > base-root > div > div.base-root-body._ngcontent-awn-CM_EDITING-1 > div.view-container._ngcontent-awn-CM_EDITING-1 > view-loader > congrats-view > div > div.congrats-container._ngcontent-awn-CM_EDITING-15 > div.congrats-text._ngcontent-awn-CM_EDITING-15 > material-button")
+Settings | Section/Button
+/html/body/div[2]/root/div/div[1]/div/div/div[3]/div/div/awsm-skinny-nav/nav/div[1]/div[3]/awsm-skinny-nav-item/a/div/material-icon/i
+document.querySelector("body > div:nth-child(21) > root > div > div.awsm-main._ngcontent-awn-AWSM-0 > div > div > div.awsm-sub-container._ngcontent-awn-AWSM-0 > div > div > awsm-skinny-nav > nav > div.body._ngcontent-awn-AWSM-10 > div:nth-child(3) > awsm-skinny-nav-item > a > div > material-icon > i")
+Change Account Settings | Button//
+/html/body/div[2]/root/div/div[1]/div/div/div[3]/div/div/awsm-skinny-nav/nav/div[1]/div[3]/awsm-skinny-nav-item/div/awsm-skinny-nav-item[3]/a
+document.querySelector("body > div:nth-child(21) > root > div > div.awsm-main._ngcontent-awn-AWSM-0 > div > div > div.awsm-sub-container._ngcontent-awn-AWSM-0 > div > div > awsm-skinny-nav > nav > div.body._ngcontent-awn-AWSM-10 > div:nth-child(3) > awsm-skinny-nav-item > div > awsm-skinny-nav-item:nth-child(3) > a")
+
++ | Button
+//*[@id="a1C4370C9-715E-4027-A45D-CF02F87DC6DC--0"]/div[1]/material-icon/i
+document.querySelector("#a1C4370C9-715E-4027-A45D-CF02F87DC6DC--0 > div.content._ngcontent-iqx-36 > material-icon > i")
+
+Create new account manager | Section/Button
+//*[@id="a3630F4A1-C519-49FC-A4A3-9F4F4F2B046D--0"]/material-icon/i
+document.querySelector("#a3630F4A1-C519-49FC-A4A3-9F4F4F2B046D--0 > material-icon > i")
+
+Enter account name | Input
+//*[@id="a55B68689-4C2A-4B1A-9B0E-FA21DADF73A4--0"]/div/div[1]/div/div/span[2]/account-name-input/material-input/div[1]/div[1]/label/input
+document.querySelector("#a55B68689-4C2A-4B1A-9B0E-FA21DADF73A4--0 > div > div.content-wrapper._ngcontent-gag-19.hidden-header.row-reverse > div > div > span.editor-value._ngcontent-gag-18 > account-name-input > material-input > div.baseline._ngcontent-gag-31 > div.top-section._ngcontent-gag-31 > label > input").value = 'JohnDoe'
+
+Save and continue | Button
+//*[@id="aEB75ABF0-DC15-4C12-9780-E7F6468241C3--0"]/step-loader/submanager-account-creation-step/div/div[2]/material-yes-no-buttons/material-button[1]
+document.querySelector("#aEB75ABF0-DC15-4C12-9780-E7F6468241C3--0 > step-loader > submanager-account-creation-step > div > div.buttons._ngcontent-gag-18 > material-yes-no-buttons > material-button.btn.btn-yes._ngcontent-gag-25._nghost-gag-9.highlighted")
+
+Done | Button
+//*[@id="aEB75ABF0-DC15-4C12-9780-E7F6468241C3--1"]/step-loader/link-accounts-step/div/div[3]/material-yes-no-buttons/material-button[1]
+document.querySelector("#aEB75ABF0-DC15-4C12-9780-E7F6468241C3--1 > step-loader > link-accounts-step > div > div.buttons._ngcontent-gag-36 > material-yes-no-buttons > material-button.btn.btn-yes._ngcontent-gag-25._nghost-gag-9.highlighted")
+
++ | Button//
+//*[@id="a0675F8C1-EFE3-4CB8-868B-2831B71A3772--0"]/div[1]/material-icon/i
+document.querySelector("#a0675F8C1-EFE3-4CB8-868B-2831B71A3772--0 > div.content._ngcontent-iqx-36 > material-icon > i")
+
+Create new account | Button/Section
+//*[@id="a02D599C1-686E-4644-A879-E591C74C7CC7--0"]/material-icon/i
+document.querySelector("#a02D599C1-686E-4644-A879-E591C74C7CC7--0 > material-icon > i")
+
+Enter account name | Input
+//*[@id="a87AE5710-B763-4042-8330-FB024168577E--0"]/div/div[1]/div/div/span[2]/account-name-input/material-input/div[1]/div[1]/label/input
+document.querySelector("#a87AE5710-B763-4042-8330-FB024168577E--0 > div > div.content-wrapper._ngcontent-gag-19.hidden-header.row-reverse > div > div > span.editor-value._ngcontent-gag-43 > account-name-input > material-input > div.baseline._ngcontent-gag-31 > div.top-section._ngcontent-gag-31 > label > input")
+
+Save and continue | Button
+//*[@id="aEB75ABF0-DC15-4C12-9780-E7F6468241C3--2"]/step-loader/account-creation-step/div/div[2]/material-yes-no-buttons/material-button[1]

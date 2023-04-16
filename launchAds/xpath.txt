@@ -1,0 +1,7 @@
+//a[2] | //*[@id="jump-content"]/div[2]/section[1]/div/div/div[2]/div/a # ads.google.com > Start now
+//material-list/material-list-item[1] # Use GoogleAds as... Manager
+//material-extended-fab-menu/button # Overview Page > New Campaign 
+//customer-picker # Select and account
+//customer-picker-cell[1] # Account Manager
+//dynamic-component[3]/marketing-objective-card-v2/selection-card # Website Traffic
+//dynamic-component[1]/channel-selection-card-v2/selection-card # Search
